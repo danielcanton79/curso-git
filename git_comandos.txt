@@ -1,0 +1,16 @@
+suporta varios comando tanto de dos como linux - dir ,ls , cone  ,tag ,cd , mkdir
+
+git clone git://github.com/jcfonsecagit/repositorio.git  - clonando repositorio online
+git tag - listar todas as tags doprojeto
+git checkout v0.1 - lista os arquivos e modificações da versão v0.1
+git diff v0.1 v0.2 - deferenças entre as versões 1 e 2.
+git blame index.html - informações quem fez quaismodificações em tal arquivo . linha por linha.
+git init - cria repositorio dentro da pasta que voce estiver
+git status - lista stauts do repositorio , se tem commit , se houveram modificações
+git add file - adiciona arquivo que o git deve rastrear modificações
+git config user.name "João Carlos Fonseca"  - configura user
+git config user.email "jcfonsecagit@gmail.com" - configura email do user
+git commit -m "Início do projeto" - primeira marcação do projeto
+git remote add [alias_do_repositorio] [uri_do_repositorio]. https://github.com/danielcanton79/curso-git.git
+
+
